@@ -3,3 +3,79 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: rgb(54, 94, 226);
+    padding: 10px 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-main{
+    max-width: 991px;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+}
+
+.col-70{
+    width: 70%;
+}
+
+.col-15{
+    width: 15%;
+}
+
+.col-80{
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.height-50{
+    height: 50px;
+}
+
+.height-300{
+    height: 300px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.button-black{
+    color: white;
+    background-color: black;
+}
+
+ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content{
+    display: flex;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+p{
+    margin: 20px;
+    font-size: 20px;
+}
+
