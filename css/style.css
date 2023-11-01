@@ -42,6 +42,10 @@
     justify-content: space-between;
 }
 
+.j-end{
+    justify-content: end;
+}
+
 /* COLUMN */
 
 .content-column{
@@ -67,6 +71,10 @@
 
 .col-25{
     width: 25%;
+}
+
+.col-15{
+    width: 15%;
 }
 
 /* HEADER */
@@ -123,6 +131,10 @@ button{
     max-width: 100%;
 }
 
+.img-italia{
+    max-width: 20px;
+}
+
 /* TEXT-STYLE */
 
 .text-center{
@@ -131,6 +143,10 @@ button{
 
 .color-white{
     color: white;
+}
+
+.color-blue{
+    color: rgb(58, 85, 186);
 }
 
 h1{
@@ -143,4 +159,21 @@ h2{
 
 ul{
     list-style: none;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+}
+
+.row-footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+hr{
+    background-color: blue;
+    width: 100%;
 }
